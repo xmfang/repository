@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset> 
+
+	<dictionaries id="1" category="CRAFT_CATEGORY" remark="remark" sort_order="100" text="玻璃" serial_number="111" version="1" />
+	<dictionaries id="2" category="CRAFT_CATEGORY" remark="remark1" sort_order="200" text="油漆" serial_number="112" version="1" />
+	<dictionaries id="3" category="CRAFT_CATEGORY" remark="remark" sort_order="300" text="雕花" serial_number="112" version="1" />
+	
+	<suppliers id="1" name="优冠" tel="13333333333" fax="88888888" website="www.www.com" address="佛山xxxxxxxx" active_partner="true" version="1" />
+	<suppliers id="2" name="美之顺" tel="13333333333" fax="88888888" website="www.www.com" address="佛山xxxxxxxx" active_partner="true" version="1" />
+	<suppliers id="3" name="亿合" tel="13333333333" fax="88888888" website="www.www.com" address="佛山xxxxxxxx" active_partner="true" version="1" />
+	  
+	<supplier_contact_infos supplier_id="1" contacter="李莫愁" tel="13333333333" title="老板" email="lmc@jy.com" QQ="111111" remark="莫愁莫愁"  />
+	<supplier_contact_infos supplier_id="1" contacter="小龙女" tel="13333333333" title="老板娘" email="xln@jy.com" QQ="222222" remark="龙女龙女"  />
+	<supplier_contact_infos supplier_id="2" contacter="独孤求败" tel="13333333333" title="老板" email="dgqb@jy.com" QQ="333333" remark="独孤求败"  />
+	<supplier_contact_infos supplier_id="2" contacter="神雕" tel="13333333333" title="老板娘" email="sd@jy.com" QQ="555555" remark="神雕神雕"  />
+	<supplier_contact_infos supplier_id="3" contacter="张无忌" tel="13333333333" title="老板" email="zwj@lmc.com" QQ="123123" remark="小张小张"  />
+	<supplier_contact_infos supplier_id="3" contacter="赵敏" tel="13333333333" title="老板娘" email="zm@lmc.com" QQ="123123" remark="蒙古女人"  />
+	<supplier_contact_infos supplier_id="3" contacter="周子若" tel="13333333333" title="老板娘" email="zzr@lmc.com" QQ="234234" remark="小周啊小周"  />
+	
+	<door_categories id="1" name="木门" height_mm="2050" thickness_mm="150" width_mm="850" version="1" />
+	<door_categories id="2" name="不锈钢门" height_mm="2050" thickness_mm="150" width_mm="850" version="1" />
+	<door_categories id="3" name="厕所门" height_mm="2050" thickness_mm="150" width_mm="850" version="1" />
+
+	<color id="1" name="沙比利色" cost_cent="0" price_cent="0" door_category_id="3" version="1" />
+	<color id="2" name="白色" cost_cent="0" price_cent="0" door_category_id="3" version="1" />
+	<color id="3" name="黄色" cost_cent="0" price_cent="0" door_category_id="3" version="1" />
+	<color id="6" name="茶色" cost_cent="3000" price_cent="5000" door_category_id="3" version="1" />
+	<color id="4" name="红花梨色" cost_cent="500" price_cent="1000" door_category_id="1" version="1" />
+	<color id="5" name="白花梨色" cost_cent="1000" price_cent="2000" door_category_id="1" version="1" />
+	<color id="7" name="不锈钢色" cost_cent="2000" price_cent="3000" door_category_id="2" version="1" />
+	<color id="8" name="金色" cost_cent="1000" price_cent="2000" door_category_id="2" version="1" />
+
+</dataset>
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<decorators defaultdir="/WEB-INF/decorators">
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+    <excludes>
+        <pattern>/nodecorate/*</pattern>
+        <pattern>/styles/*</pattern>
+        <pattern>/scripts/*</pattern>
+        <pattern>/images/*</pattern>
+        <pattern>/dojo/*</pattern>
+        <pattern>/struts/*</pattern>
+        <pattern>/admin/dictionary/dictionary-edit.action*</pattern>
+        <pattern>/admin/dictionary/dictionary-list.action*</pattern>
+        <pattern>/basicinfo/doorcategory/door-category-edit.action*</pattern>
+        <pattern>/basicinfo/color/color-list.action*</pattern>
+        <pattern>/basicinfo/color/color-edit.action*</pattern>
+        <pattern>/basicinfo/model/model-list.action*</pattern>
+        <pattern>/basicinfo/model/model-edit.action*</pattern>
+        <pattern>/basicinfo/craft/craft-list.action*</pattern>
+        <pattern>/basicinfo/craft/craft-edit.action*</pattern>
+        <pattern>/basicinfo/parts/parts-list.action*</pattern>
+        <pattern>/basicinfo/parts/parts-edit.action*</pattern>
+        <pattern>/basicinfo/style/style-list.action*</pattern>
+        <pattern>/basicinfo/style/style-edit.action*</pattern>
+    </excludes>
+
+    <decorator name="main" page="main.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+</decorators>

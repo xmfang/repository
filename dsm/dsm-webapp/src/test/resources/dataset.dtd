@@ -1,0 +1,61 @@
+<!ELEMENT dataset (
+    dictionaries*,
+    suppliers*,
+    supplier_contact_infos*,
+    door_categories*,
+    color*
+)>
+
+<!ELEMENT dictionaries EMPTY>
+<!ATTLIST dictionaries
+    id CDATA #REQUIRED
+    version CDATA #REQUIRED
+    category CDATA #REQUIRED
+    remark CDATA
+    serial_number CDATA #REQUIRED
+    sort_order CDATA #REQUIRED
+    text CDATA #REQUIRED
+>
+
+<!ELEMENT suppliers EMPTY>
+<!ATTLIST suppliers
+    id CDATA #REQUIRED
+    version CDATA #REQUIRED
+    name CDATA #REQUIRED
+    tel CDATA
+    fax CDATA
+    website CDATA
+    address CDATA 
+    active_partner CDATA #REQUIRED
+>
+
+<!ELEMENT supplier_contact_infos EMPTY>
+<!ATTLIST supplier_contact_infos
+    supplier_id CDATA #REQUIRED
+    contacter CDATA
+    tel CDATA
+    title CDATA
+    email CDATA
+    QQ CDATA #REQUIRED
+    remark CDATA 
+>
+
+<!ELEMENT door_categories EMPTY>
+<!ATTLIST door_categories
+    id CDATA #REQUIRED
+    version CDATA #REQUIRED
+    name CDATA #REQUIRED
+    height_mm CDATA
+    thickness_mm CDATA
+    width_mm CDATA
+>
+
+<!ELEMENT color EMPTY>
+<!ATTLIST color
+    id CDATA #REQUIRED
+    version CDATA #REQUIRED
+    name CDATA #REQUIRED
+    price_cent CDATA #REQUIRED
+    door_category_id CDATA #REQUIRED
+>
+
